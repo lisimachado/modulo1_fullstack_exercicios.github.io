@@ -1,0 +1,12 @@
+body{
+	background-color: #f6f6a9;
+}
+
+.titulo{
+	font: verdana 20px;
+	color: #995f5f;
+	text-align: center;
+}
+.conteudo{
+	font: 14px;
+}
