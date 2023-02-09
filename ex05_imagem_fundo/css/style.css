@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	background-color: #f6f6a9;
+}
+
+.titulo{
+	font: verdana 20px;
+	color: #542c2c;
+	text-align: center;
+	background-image: url("/ex05_imagem_fundo/img/img_fundo.png");
+}
+
+.conteudo{
+	font: 14px;
+}
+
+.btn{
+	border-radius: 5px;
+	padding: 10px;
+	border: solid black 2px;
+	margin-top: 20px;
+}
