@@ -1,0 +1,9 @@
+## [M1S01] Ex 2 - Utilizando imagens
+
+#Descrição
+Construa outro documento HTML5 (exemplo: imagens.html), no mesmo diretório do anterior, agora contendo três imagens: uma salva no mesmo diretório dos arquivos .html, outra salva em um diretório diferente (mas dentro do diretório onde se encontram os arquivos html), e outra que não está no seu computador, mas está salva em algum servidor na internet (URL).
+
+No mesmo documento, mude o "ícone de favorito" da página (o ícone da aba). Mude também o ícone de favorito no documento do exercício anterior (M1S01E1).
+
+Dica:
+HTML Images
