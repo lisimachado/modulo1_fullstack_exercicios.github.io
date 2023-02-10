@@ -1,0 +1,12 @@
+##[M1S01] Ex 8 - Navegar é preciso
+
+#Descrição
+Crie um menu no topo da página index que fique sempre fixo enquanto você rola a página para baixo, contendo um logo do lado esquerdo e uma lista das páginas do site à direita:
+
+Item de menu "Home" com link para o index.html;
+Item "Imagens" com link para a página com as imagens.
+‌
+
+Dica:
+https://www.w3schools.com/howto/howto_css_fixed_menu.asp
+How To Create a Fixed Menu
