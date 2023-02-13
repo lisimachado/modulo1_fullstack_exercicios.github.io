@@ -1,0 +1,8 @@
+##[M1S01] 
+
+#Descrição
+Adicione uma região de rodapé na página index, com uma cor de fundo diferente do resto da página e algumas informações sobre você, o/a desenvolvedor(a).
+
+‌
+
+Desafio: Faça com que o rodapé fique sempre ao final da página, junto da borda inferior da janela, mas sem ser fixo. Se o conteúdo ocupar mais do que a altura total da página, o rodapé não pode se sobrepor a ele.
