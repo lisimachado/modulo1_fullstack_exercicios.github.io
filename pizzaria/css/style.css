@@ -8,11 +8,11 @@ body{
 .conteudo{
 	width: 50%;
 	height: 0%;
-	background-color: green;
+	/*background-color: green;*/
 	float: left;
 	color: #f0ffff;
 	text-align: justify;
-	
+	margin-left: 5%;
 }
 
 #title{
@@ -20,18 +20,42 @@ body{
 	font-size: 100px;
 	margin: 20% 0 0 5%;
 	text-align: center;
+	color: #ffff00;
 }
 
 #slogan{
 	font-family: 'Just Another Hand', cursive;
-	font-size: 35px;
+	font-size: 40px;
 	font-weight: 100;
 	text-align: center;
 	margin: 0 0 0 5%;
+	color: #77ce77;
 }
 
-.imagem{
+.pedido{
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.pedido a{
 	background-color: yellow;
+	padding: 1.5%;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+a:hover{
+	background-color: #319d31;
+	color: #f0ffff;	
+}
+
+
+.imagem{
 	width: 45%;
 	float: right;
 }

@@ -1,0 +1,66 @@
+body{
+	background-image: url(../img/back.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: -moz-linear-gradient();
+}
+
+.title{
+	font-family: 'Just Another Hand', cursive;
+	font-size: 80px;
+	font-weight: 100;
+	text-align: center;
+	color: #ffff00;
+}
+
+.container{
+	width: 30%;
+	height: 300px;
+	background-color:  rgba(231, 239, 239, 0.4);
+	border-radius: 10px;	
+	margin: auto;
+	font-family: sans-serif;
+	line-height: 10px;
+	align-items: baseline;
+}
+
+input{
+	width: 20px;
+	height: 20px;
+}
+
+label, input{
+	line-height: 3;
+	font-size: 30px;
+}
+
+
+.container2{
+	margin: auto;
+}
+
+.btn{
+	background-color: yellow;
+	padding: 1%;
+	border-radius: 10px;
+	font: 20px sans-serif;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	margin: 1% 48% 10% 35%;
+}
+
+.btn a{
+	text-decoration: none;
+	color: black;
+}
+
+.btn:hover{
+	background-color: #319d31;
+	
+}
+
+a:hover{
+	color: #f0ffff;	
+}
+
