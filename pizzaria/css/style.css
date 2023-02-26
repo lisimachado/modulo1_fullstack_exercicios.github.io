@@ -1,6 +1,23 @@
 body{
-	background: url(../img/backgroung.png);
+	background: url(../img/back.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-
+	background-image: -moz-linear-gradient();
 }
+
+.conteudo{
+	width: 48%;
+	background-color: green;
+	display: flexbox;
+}
+
+.imagem{
+	background-color: yellow;
+	width: 48%;
+	display: flexbox;
+}
+
+.imagem img{
+	width: 700px;
+}
+
