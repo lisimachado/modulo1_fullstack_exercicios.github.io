@@ -6,15 +6,34 @@ body{
 }
 
 .conteudo{
-	width: 48%;
+	width: 50%;
+	height: 0%;
 	background-color: green;
-	display: flexbox;
+	float: left;
+	color: #f0ffff;
+	text-align: justify;
+	
+}
+
+#title{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 100px;
+	margin: 20% 0 0 5%;
+	text-align: center;
+}
+
+#slogan{
+	font-family: 'Just Another Hand', cursive;
+	font-size: 35px;
+	font-weight: 100;
+	text-align: center;
+	margin: 0 0 0 5%;
 }
 
 .imagem{
 	background-color: yellow;
-	width: 48%;
-	display: flexbox;
+	width: 45%;
+	float: right;
 }
 
 .imagem img{

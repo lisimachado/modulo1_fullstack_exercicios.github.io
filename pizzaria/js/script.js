@@ -1,1 +1,1 @@
-alert("Bem vindo à Pizza Brasil");
+/*alert("Bem vindo à Pizza Brasil");
