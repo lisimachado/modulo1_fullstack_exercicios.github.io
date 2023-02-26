@@ -30,14 +30,13 @@ input{
 }
 
 label, input{
-	line-height: 3;
+	line-height: 2;
 	font-size: 30px;
+	margin: 10% 5% 5% 7%;
+	color: #f0ffff;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
-.container2{
-	margin: auto;
-}
 
 .btn{
 	background-color: yellow;
@@ -57,7 +56,6 @@ label, input{
 
 .btn:hover{
 	background-color: #319d31;
-	
 }
 
 a:hover{
