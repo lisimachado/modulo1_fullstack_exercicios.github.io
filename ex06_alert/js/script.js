@@ -15,6 +15,7 @@ btn.addEventListener("click", function(e){
 	name.value = "";
 	email.value = "";
 
+	
 	alert("Seus dados foram enviados!");
-
-})
+	
+}
