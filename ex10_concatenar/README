@@ -1,5 +1,5 @@
-## [M1S02] Ex 9 - Exiba no console [Fixação JavaScript]
+## [M1S02] Ex 10 - Qual seu nome e sobrenome? [Fixação JavaScript]
 
 #Descrição
 
-Pergunte ao usuário: nome (prompt), idade (prompt) e cidade (prompt). Crie 3 variáveis para guardar as respostas do usuário: duas devem receber um valor textual (string) e a outra deve receber um valor numérico (number). Faça com que esses 3 valores sejam exibidos no console do navegador.
+Faça 2 prompts ao usuário: no primeiro, pergunte o seu sobrenome. No segundo, pergunte o seu nome. Em seguida, exiba na tela um alert contendo o nome completo do usuário, na ordem correta (ou seja: Nome Sobrenome).
