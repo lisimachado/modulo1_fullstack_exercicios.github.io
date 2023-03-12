@@ -1,0 +1,7 @@
+##  [M1S03] SEMANA 3 Ex 03 - A Ponte
+
+#DESCRIÇÃO
+
+Escreva um programa que, com base em uma idade fornecida, classifica a pessoa nos grupos abaixo:
+
+A secretaria de obras de uma prefeitura local está reformando uma das pontes da cidade após alguns desgastes naturais. Após vários testes, o trânsito local foi liberado com algumas condições específicas: Nenhum carro que pese mais de 1.500kg e tenha mais de 5 metros de comprimento poderá passar pela ponte. Faça um programa que leia as informações e alerte se o carro pode ou não passar pela ponte.
