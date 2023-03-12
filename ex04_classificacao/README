@@ -1,0 +1,5 @@
+##  [M1S03] SEMANA 3 Ex 04 - Classificação
+
+#DESCRIÇÃO
+
+Uma empresa está classificando os pedidos de venda de suas equipes para diferenciar a forma de bonificação. Caso o valor do pedido seja até 10.000,00 a classificação do pedido será bronze. Caso seja entre 10.000,00 e 50.000,00 a classificação será prata. Caso seja 100.000,00 a 500.000,00 a classificação será ouro. Acima de 500.000,00 a classificação será platinum. Escreva o programa que receba as informações de valor do pedido e imprima sua classificação.
