@@ -1,0 +1,6 @@
+##  [M1S05] Ex 2 - Olá Arrow 2
+
+#DESCRIÇÃO
+
+Ajuste a função ‘mensagemOla’, criada no exercício anterior, para que receba um parâmetro ‘nome’ e retorne a mensagem “Olá, [nome]!” (ex.: Olá, Ana!).
+Após o ajuste, execute a função ‘mensagemOla’, mas dessa vez passando algum nome como parâmetro.
