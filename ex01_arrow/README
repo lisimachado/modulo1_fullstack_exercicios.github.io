@@ -1,0 +1,6 @@
+##  [M1S05] Ex 1 - Olá Arrow
+
+#DESCRIÇÃO
+
+Faça uma arrow function para retornar uma mensagem de “Olá, Mundo!”. Armazene esta arrow function em uma constante (const) de nome ‘mensagemOla’.
+Após a definição, execute a função ‘mensagemOla’.
