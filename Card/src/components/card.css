@@ -1,0 +1,38 @@
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #46b37598;
+	border-radius: 20px;
+	padding: 20px;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.card-logo {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.card-dados {
+	text-align: left;
+	margin: 25px 30px;
+}
+
+.card-dados > h1{
+	font-size: 2.5rem;
+}
+
+.card-contatos {
+	margin-top: 20px;
+}
+
+.card-contatos a {
+	margin-right: 20px;
+	opacity: 0.4;
+}
+
+.card-contatos a:hover {
+	margin-right: 20px;
+	opacity: 1;
+}
