@@ -1,6 +1,0 @@
-##  [M1S05] Ex 6 - forEach LocalStorage
-
-#DESCRIÇÃO
-
-Dada a seguinte lista, utilizando o método forEach e salve no localstorage cada um dos elementos.
-[ “Banana”, “Morango”, “Maçã”, “Uva”, “Pêra” ]
