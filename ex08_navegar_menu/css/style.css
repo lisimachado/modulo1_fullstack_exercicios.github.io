@@ -12,7 +12,7 @@
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-
+	text-align: right;
 }
 
 
@@ -90,4 +90,8 @@ button{
 	background-color: #ba80f0;
 	padding: 40px;
 
+}
+
+.btn-center {
+  text-align: center;
 }
