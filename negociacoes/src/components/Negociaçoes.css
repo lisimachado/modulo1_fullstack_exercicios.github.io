@@ -1,0 +1,21 @@
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th,
+td {
+	text-align: center;
+	padding: 8px;
+	border: 1px solid #ddd;
+}
+
+th {
+	background-color: #645d5d;
+}
+.delete-icon {
+	color: red;
+	cursor: pointer;
+	font-size: 1.2rem;
+	margin-left: 10px;
+}
