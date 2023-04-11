@@ -1,28 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bolsa de valores</title>
-</head>
-<body>
-	<h1>Cadastro de Negociações Bolsa de Valores </h1>
-	<form>
-		<label for="data">Informe a data da negociação:</label>
-		<input type="date" id="data"><br><br>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bolsa de valores</title>
+  </head>
+  <body>
+    <main>
+      <form onsubmit="event.preventDefault()" id="form">
+        <label for="code">Código</label>
+        <input type="text" id="code" required />
 
-		<label for="acoes">Informe a quantidade de ações vendidas:</label>
-		<input type="number" id="acoes"><br><br>
+        <label for="date">Data da Negociação</label>
+        <input type="date" id="date" />
 
-		<label for="valor">Informe o valor da negociação:</label>
-		<input type="number" id="valor"><br><br>
+        <label for="soldAmount">Qtd de Ações</label>
+        <input type="number" id="soldAmount" min="1" max="100" required />
 
-		<input type="submit" id="btn">
+        <label for="priceShare">Preço de Venda</label>
+        <input
+          type="number"
+          id="priceShare"
+          min="0"
+          max="1000000"
+          pattern="[0-9]+([\.][0-9]+)?"
+          step=".1"
+          required
+        />
 
+        <button type="submit">Vender</button>
 
+        <label for="filter">Filtrar valores</label>
+        <input
+          type="number"
+          id="filter"
+          min="0"
+          max="1000000"
+          pattern="[0-9]+([\.][0-9]+)?"
+          step=".1"
+        />
+        <button type="submit" id="btnFilter">Filtrar</button>
+      </form>
 
-	</form>
-	<script src="./js/script.js"></script>
-</body>
+      <table>
+        <thead>
+          <th>Código</th>
+          <th>Data da negociação</th>
+          <th>Qts de Ações</th>
+          <th>Preço de Venda</th>
+          <th>Total</th>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </main>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
 </html>
