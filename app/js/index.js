@@ -1,6 +1,6 @@
-import { TradeController } from "./tradeController.js";
+import { NegController } from "./NegController.js";
 
-const controller = new TradeController();
+const controller = new NegController();
 document.getElementById("form").addEventListener("submit", () => {
   controller.createTrade();
 });

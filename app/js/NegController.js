@@ -2,7 +2,7 @@ import { Trade } from "./models/trade.js";
 import { TradeList } from "./models/tradeList.js";
 import { TradeViews } from "./views/tradesViews.js";
 
-export class TradeController {
+export class NegController {
   #fieldCode;
   #fieldDate;
   #fieldNumberShare;
